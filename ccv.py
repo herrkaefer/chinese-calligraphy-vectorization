@@ -176,7 +176,7 @@ def typeset(dirname, title='demo', nrow=7, direction='v', chrratio=0.8, grid='on
 			BOARDER.setAttribute('height',str(chrwidth))
 			BOARDER.setAttribute('fill','white')
 			BOARDER.setAttribute('stroke','red')
-			BOARDER.setAttribute('stroke-width',str(chrwidth/400+2))
+			BOARDER.setAttribute('stroke-width',str(chrwidth/500+2))
 			SVG.appendChild(BOARDER)
 			
 			LINE = doc.createElement('line')
@@ -185,7 +185,7 @@ def typeset(dirname, title='demo', nrow=7, direction='v', chrratio=0.8, grid='on
 			LINE.setAttribute('x2',str(x+chrwidth))
 			LINE.setAttribute('y2',str(y+chrwidth))
 			LINE.setAttribute('stroke','red')
-			LINE.setAttribute('stroke-width',str((chrwidth/400+2)/2))
+			LINE.setAttribute('stroke-width',str((chrwidth/500+2)/2))
 			SVG.appendChild(LINE)
 			
 			LINE = doc.createElement('line')
@@ -250,13 +250,21 @@ def produce_copybook(character_dir='calligraphy/lantingxu/svg', title='demo', ro
 
 def test():
 
-	produce_copybook(character_dir    = os.path.join(os.getcwd(), 'calligraphy', 'lantingxu', 'svg'), 
-					  title           = 'lantingxu', 
+	produce_copybook( character_dir   = os.path.join(os.getcwd(), 'calligraphy', 'lantingxu', 'svg'), 
+					  title           = 'lantingxu-withgrid', 
 					  rows            = 8, 
 					  direction       = 'v', 
 					  character_ratio = 0.7, 
 					  grid            = 'on', 
-					  canvas_width    = 1366)
+					  canvas_width    = 1366 )
+
+	produce_copybook( character_dir   = os.path.join(os.getcwd(), 'calligraphy', 'lantingxu', 'svg'), 
+					  title           = 'lantingxu-nogrid', 
+					  rows            = 8, 
+					  direction       = 'v', 
+					  character_ratio = 0.7, 
+					  grid            = 'off', 
+					  canvas_width    = 1366 )
 	
 	
 if __name__ == "__main__":
