@@ -1,4 +1,5 @@
 #-*- coding: UTF-8 -*-
+# Copyright LIU Yang <gloolar@gmail.com>
 
 """ 
 Chinese Calligraphy Vectorization (CCV) Project 
