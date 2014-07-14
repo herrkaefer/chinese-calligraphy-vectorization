@@ -1,5 +1,5 @@
 
-![lantingxu](copybooks/lantingxu.svg)
+![lantingxu](copybooks/lantingxu.svg?raw=true)
 
 # Chinese Caligraphy Vectorization (CCV) Project
 
