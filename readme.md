@@ -24,7 +24,11 @@ From 2008 to 2009, I vectorized many characters in ["兰亭集序"](http://zh.wi
 
 - Calligraphy copybook. I write a app to re-typeset the characters to produce a copybook of the caligraphy.
 
-![](https://cdn.rawgit.com/herrkaefer/chinese-calligraphy-vectorization/master/copybooks/lantingxu.svg)
+demos:
+
+![](https://cdn.rawgit.com/herrkaefer/chinese-calligraphy-vectorization/master/copybooks/lantingxu-withgrid.svg)
+
+![](https://cdn.rawgit.com/herrkaefer/chinese-calligraphy-vectorization/master/copybooks/lantingxu-nogrid.svg)
 
 usage:
 
