@@ -14,7 +14,7 @@ from xml.dom import minidom
 
 xmlns = 'http://www.w3.org/2000/svg'
 xmlversion = 1.1
-desc = '兰亭序 by ccv'
+desc = 'created by ccv'
 
 
 def __get_xylist(d):
@@ -155,7 +155,7 @@ def typeset(dirname, title='demo', nrow=7, direction='v', chrratio=0.8, grid='on
 	# get path from character file and add translate & scale attribute
 	for i in xrange(len(svgfiles)):
 		filename = svgfiles[i]
-		print filename
+		print(filename),
 			
 		nr = i%nrow
 		nc = i/nrow

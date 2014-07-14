@@ -1,6 +1,4 @@
 
-![lantingxu](copybooks/lantingxu.svg?raw=true)
-
 # Chinese Caligraphy Vectorization (CCV) Project
 
 ## Objective
@@ -24,6 +22,19 @@ From 2008 to 2009, I vectorized many characters in ["兰亭集序"](http://zh.wi
 
 ## Application
 
-- Calligraphy copybook. I write a app to re-typeset the characters to produce a copybook of the caligraphy, as shown above.
+- Calligraphy copybook. I write a app to re-typeset the characters to produce a copybook of the caligraphy. A demo is [here](copybooks/lantingxu.svg).
+
+usage:
+
+```
+import ccv
+ccv.produce_copybook(character_dir   = os.path.join(os.getcwd(), 'calligraphy', 'lantingxu', 'svg'), 
+					 title           = 'lantingxu', 
+					 rows            = 8, 
+					 direction       = 'v', 
+					 character_ratio = 0.7, 
+					 grid            = 'on', 
+					 canvas_width    = 1300)
+```
 
 
