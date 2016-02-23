@@ -2,3 +2,4 @@ doc/
 bak/
 *.pyc
 Thumbs.db
+*.DS_Store
