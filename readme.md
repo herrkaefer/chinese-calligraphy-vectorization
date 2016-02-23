@@ -6,7 +6,7 @@
 - Transfer famous Chinese caligraphy works to vector graphics, and establish a library
 - Develop interesting applications based on the library
 
-# Method of vectorization
+## Method of vectorization
 
 The method I employ is generally as follows:
 
@@ -22,11 +22,11 @@ Specific (important) setups for Inkscape: (in Edit -> Perreferences -> SVG outpu
 - check "Force repeat commands"
 
 
-# What is done
+## What is done
 
 From 2008 to 2009, I vectorized many characters in ["兰亭集序"](http://zh.wikipedia.org/wiki/%E8%98%AD%E4%BA%AD%E9%9B%86%E5%BA%8F) (not finished). This work will be continued in 2016.
 
-## Application
+## Applications
 
 - Calligraphy copybook. I write a app to re-typeset the characters to produce a copybook of the caligraphy.
 
