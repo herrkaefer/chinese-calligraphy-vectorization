@@ -8,7 +8,7 @@
 
 # Method of vectorization
 
-The method I employ is as generally as follows:
+The method I employ is generally as follows:
 
 - find a high-resolution bitmap of the caligraphy work
 - crop the bitmap into small bitmaps each contains a character
@@ -32,21 +32,37 @@ From 2008 to 2009, I vectorized many characters in ["兰亭集序"](http://zh.wi
 
 demos:
 
+```python
+import ccv
+ccv.produce_copybook(character_dir   = os.path.join(os.getcwd(), 'calligraphy', 'lantingxu', 'svg'),
+                     title           = 'lantingxu',
+                     rows            = 8,
+                     direction       = 'v',
+                     character_ratio = 0.7,
+                     grid            = 'on',
+                     canvas_width    = 1300)
+```
+
+will produce:
+
 ![](https://cdn.rawgit.com/herrkaefer/chinese-calligraphy-vectorization/master/copybooks/lantingxu-withgrid.svg)
+
+```python
+import ccv
+ccv.produce_copybook(character_dir   = os.path.join(os.getcwd(), 'calligraphy', 'lantingxu', 'svg'),
+                     title           = 'lantingxu',
+                     rows            = 8,
+                     direction       = 'v',
+                     character_ratio = 0.7,
+                     grid            = 'off',
+                     canvas_width    = 1300)
+```
+
+will produce:
 
 ![](https://cdn.rawgit.com/herrkaefer/chinese-calligraphy-vectorization/master/copybooks/lantingxu-nogrid.svg)
 
 usage:
 
-```
-import ccv
-ccv.produce_copybook(character_dir   = os.path.join(os.getcwd(), 'calligraphy', 'lantingxu', 'svg'),
-					 title           = 'lantingxu',
-					 rows            = 8,
-					 direction       = 'v',
-					 character_ratio = 0.7,
-					 grid            = 'on',
-					 canvas_width    = 1300)
-```
 
 
