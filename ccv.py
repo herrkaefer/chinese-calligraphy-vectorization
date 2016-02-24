@@ -267,7 +267,7 @@ def test():
                       title           = 'lantingxu-withgrid',
                       rows            = 8,
                       direction       = 'v',
-                      character_ratio = 0.7,
+                      character_ratio = 0.75,
                       grid            = 'on',
                       canvas_width    = 1366 )
 
@@ -275,7 +275,7 @@ def test():
                       title           = 'lantingxu-nogrid',
                       rows            = 8,
                       direction       = 'v',
-                      character_ratio = 0.7,
+                      character_ratio = 0.75,
                       grid            = 'off',
                       canvas_width    = 1366 )
 
