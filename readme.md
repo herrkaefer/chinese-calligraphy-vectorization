@@ -38,7 +38,7 @@ ccv.produce_copybook(character_dir   = os.path.join(os.getcwd(), 'calligraphy', 
                      title           = 'lantingxu',
                      rows            = 8,
                      direction       = 'v',
-                     character_ratio = 0.7,
+                     character_ratio = 0.75,
                      grid            = 'on',
                      canvas_width    = 1300)
 ```
@@ -53,7 +53,7 @@ ccv.produce_copybook(character_dir   = os.path.join(os.getcwd(), 'calligraphy', 
                      title           = 'lantingxu',
                      rows            = 8,
                      direction       = 'v',
-                     character_ratio = 0.7,
+                     character_ratio = 0.75,
                      grid            = 'off',
                      canvas_width    = 1300)
 ```
@@ -61,8 +61,5 @@ ccv.produce_copybook(character_dir   = os.path.join(os.getcwd(), 'calligraphy', 
 will produce:
 
 ![](https://cdn.rawgit.com/herrkaefer/chinese-calligraphy-vectorization/master/copybooks/lantingxu-nogrid.svg)
-
-usage:
-
 
 
